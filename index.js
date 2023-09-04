@@ -1,7 +1,7 @@
 const express = require('express')
 const axios = require('axios')
 const cheerio = require('cheerio')
-const port = process.env.PORT = 8081
+const port = process.env.PORT || 8081
 const secretKey = process.env.SECRET_PASS
 const cors = require('cors')
 
